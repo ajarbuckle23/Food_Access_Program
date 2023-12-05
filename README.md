@@ -15,6 +15,7 @@ To answer these questions, I used census tract-level data from the CDC and the U
 **500 Cities: Census Tract-level Data**
 
 This dataset contains information on census tracts from 500 US cities covering their populations, the prevalences of various health conditions (high cholesterol, arthritis, cancer, etc.), the prevalences of certain health behaviors (sleeping under 7 hours a night, binge drinking, smoking, etc.), and the rates of healthcare utilization (dentist visits, health insurance, Pap tests, etc.)  
+
 Link: https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Census-Tract-level-Data-GIS-Friendly-Fo/k86t-wghb
 
 **USDA Food Environment Atlas**
