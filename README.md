@@ -12,5 +12,5 @@ A national Medicare Advantage Plan is considering deploying a program to address
 ## Data Sources 
 To answer these questions, I used census tract-level data from the CDC and the USDA's Food Environment Atlas. Below is a description of each source: 
 
-<500 Cities: Census Tract-level Data>
+_500 Cities: Census Tract-level Data_
 
