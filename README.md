@@ -31,7 +31,8 @@ Link: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-
 ## Aproach 
 I assessed counties' potential benefit from a food assistance program based on 1) their eligible residents' utilization rate of SNAP (Supplemental Nutrition Assistance Program) and 2) the total number of senior residents who had low access to grocery stores. I chose to include SNAP utilization rates in my analysis because food access often has to do with being able to afford nutritious food, and a lower SNAP utilization rate means that some residents might be missing out on much needed financial assistance in buying groceries. I chose to focus on the number of senior residents with low access to grocery stores in my analysis because food access also has to do with proximity to places to purchase nutritious food. I also considered focusing on the percentage of senior residents with low access to grocery stores, but opted for total number to prioritize a large program reach as focusing on percentage shifted my recommendations toward smaller communities. 
 
-By including both SNAP utilization rates and the number of senior residents with low access to grocery stores, I was able to paint a fuller picture of the the potential benefit that different counties would have from a food access program, covering both the financial and logistical sides of food acccess. 
+By including both SNAP utilization rates and the number of senior residents with low access to grocery stores, I was able to paint a fuller picture of the potential benefit that different counties would have from a food access program, covering both the financial and logistical sides of food acccess. 
 
-
+## Analysis
+In the attached Jupyter notebook, I execute my approach and narrate along the way through Markdown comments. I begin with data collection, cleaning, and manipulation, then compare counties based on SNAP utilization rates and total number of senior residents with low access to grocery stores to select a small number with the highest potential impact. 
 
