@@ -12,12 +12,12 @@ A national Medicare Advantage Plan is considering deploying a program to address
 ## Data Sources 
 To answer these questions, I used census tract-level data from the CDC and the USDA's Food Environment Atlas. Below is a description of each source: 
 
-<u>500 Cities: Census Tract-level Data</u>
+**500 Cities: Census Tract-level Data**
 
 This dataset contains information for census tracts from 500 US cities about their populations, the prevalences of various health conditions (high cholesterol, arthritis, cancer, etc.), the prevalences of certain health behaviors (sleeping under 7 hours a night, binge drinking, smoking, etc.), and the rates of healthcare utilization (dentist visits, health insurance, Pap tests, etc.)  
 Link: https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Census-Tract-level-Data-GIS-Friendly-Fo/k86t-wghb
 
-_USDA Food Environment Atlas_
+**USDA Food Environment Atlas**
 
 This dataset was split into 4 CSV files  
 * StateAndCountyData.csv
