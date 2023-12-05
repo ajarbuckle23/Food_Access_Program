@@ -24,4 +24,5 @@ This dataset was split into 4 CSV files
 * _SupplementalDataState.csv_: This dataset contains state population figures as well as utilization rates for a number of government food assistance programs, both from 2012 to 2018
 * _SupplementalDataCounty.csv_: This dataset contains exact population figures from the 2010 US Census, as well as estimates for each year after until 2018
 * _VariableList.csv_: This dataset contains metadata, linking the variable codes found in StateAndCountyData.csv to variable names, categories, and units of measurement  
+
 Link: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/
