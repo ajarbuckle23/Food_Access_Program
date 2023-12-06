@@ -30,7 +30,7 @@ Link: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-
 
 **Custom Census Race Data**
 
-This dataset contains information on the racial makeup of the counties that I selected for the deployment of the food access program. I accessed it through the advanced search feature on data.census.gov, which allowed me to customize a table to contain data on each counties' population by race (Black, White, Asian, American Indian and Alaska Native, Native Hawaiin and Other Pacific Islander, Two or More Races) and Hispanic / Latino heritage
+This dataset contains information on the racial makeup of the counties that I selected for the deployment of the food access program, as well as national averages. I accessed it through the advanced search feature on data.census.gov, which allowed me to customize a table to contain data on each counties' population by race (Black, White, Asian, American Indian and Alaska Native, Native Hawaiin and Other Pacific Islander, Two or More Races) and Hispanic / Latino heritage
 
 Link: https://data.census.gov/table?t=American%20Indian%20and%20Alaska%20Native:Asian:Black%20or%20African%20American:Hispanic%20or%20Latino:Native%20Hawaiian%20and%20Other%20Pacific%20Islander:Two%20or%20More%20Races:White&g=050XX00US06037,06065,06073
 
