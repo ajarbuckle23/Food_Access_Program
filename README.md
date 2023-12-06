@@ -28,7 +28,7 @@ This dataset was split into 4 CSV files
 
 Link: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/
 
-**Custom Census Race Data**
+**Custom Census Race and Ethnicity Data**
 
 This dataset contains information on the racial makeup of the counties that I selected for the deployment of the food access program, as well as national averages. I accessed it through the advanced search feature on data.census.gov, which allowed me to customize a table to contain data on each counties' population by race (Black, White, Asian, American Indian and Alaska Native, Native Hawaiin and Other Pacific Islander, Two or More Races) and Hispanic / Latino heritage
 
@@ -36,6 +36,10 @@ Link: https://data.census.gov/table?t=American%20Indian%20and%20Alaska%20Native:
 
 ## Aproach 
 I determined the ideal location for a food access program based on the total number of senior residents who had low access to grocery stores in each county. I chose to focus on senior residents as most Medicare members are 65 and older, and I chose to focus on low access to grocery stores because food access largely has to do with proximity to places to purchase nutritious food. I considered focusing on the percentage of senior residents with low access to grocery stores, but opted to focus on the total number to prioritize a large program reach, as choosing based on percentage shifted my recommendations toward much smaller communities. 
+
+Next, I calculated an estimate of how many people would be successfully engaged by the program by using three figures: the total number of senior residents with low access to grocery stores in the counties I selected; the percent of the counties' eligible population who participated in SNAP (Supplemental Nutrition Assistance Program), a food assistance program that would likely be similar to this analysis's program; and the rate of increased successful member referrals to a food security organization that N1 achieved with a previous client. To be conservative, I took about 10 percentage point off of both of these rates before calculating the final figure. 
+
+I then determined which subgroup of the population would likely benfit the most from this program by examining the racial and ethnic makeup of the selected counties compared to the national average, noting which races and ethnicities made up a larger share of the population of the counties than of the nation as a whole. 
 
 ## Analysis
 In the attached Jupyter notebook, I execute my approach and narrate along the way through Markdown comments. I begin with data collection, cleaning, and manipulation, then compare counties based on SNAP utilization rates and total number of senior residents with low access to grocery stores to select a small number with the highest potential impact. 
