@@ -42,5 +42,5 @@ Next, I calculated an estimate of how many people would be successfully engaged 
 I then determined which subgroup of the population would likely benfit the most from this program by examining the racial and ethnic makeup of the selected counties compared to the national average, noting which races and ethnicities made up a larger share of the population of the counties than of the nation as a whole. 
 
 ## Analysis
-In the attached Jupyter notebook, I execute my approach and narrate along the way through Markdown comments. I begin with data collection, cleaning, and manipulation, then compare counties based on SNAP utilization rates and total number of senior residents with low access to grocery stores to select a small number with the highest potential impact. 
+In the attached Jupyter notebook, I execute my approach and narrate along the way through Markdown comments. I begin with data collection and cleaning, then answer each question in order in separate sections. 
 
