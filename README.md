@@ -10,7 +10,7 @@ A national Medicare Advantage Plan is considering deploying a program to address
 4) What is the projected impact of this program?
 
 ## Data Sources 
-To answer these questions, I used census tract-level data from the CDC and the USDA's Food Environment Atlas. Below is a description of each source: 
+I had three sources of data to inform my analysis: census tract-level data from the CDC, the USDA's Food Environment Atlas, and a custom-built Census race and ethnicitiy dataset for the counties I ended up selecting for the program to be deployed in. I also used two papers to get figures that informed my projections for program engagement and impact. Below is a descipription of each source: 
 
 **500 Cities: Census Tract-level Data**
 
@@ -34,12 +34,22 @@ This dataset contains information on the racial makeup of the counties that I se
 
 Link: https://data.census.gov/table?t=American%20Indian%20and%20Alaska%20Native:Asian:Black%20or%20African%20American:Hispanic%20or%20Latino:Native%20Hawaiian%20and%20Other%20Pacific%20Islander:Two%20or%20More%20Races:White&g=050XX00US06037,06065,06073
 
+**Association between household food insecurity and annual health care costs**
+
+Citation: Tarasuk, V., Cheng, J., de Oliveira, C., Dachner, N., Gundersen, C., & Kurdyak, P. (2015). Association between household food insecurity and annual health care costs. CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 187(14), E429–E436. https://doi.org/10.1503/cmaj.150234
+
+**Demographic Variation in Health Insurance Coverage: United States, 2019**
+
+Link: https://www.cdc.gov/nchs/data/nhsr/nhsr159-508.pdf
+
 ## Aproach 
-I determined the ideal location for a food access program based on the total number of senior residents who had low access to grocery stores in each county. I chose to focus on senior residents as most Medicare members are 65 and older, and I chose to focus on low access to grocery stores because food access largely has to do with proximity to places to purchase nutritious food. I considered focusing on the percentage of senior residents with low access to grocery stores, but opted to focus on the total number to prioritize a large program reach, as choosing based on percentage shifted my recommendations toward much smaller communities. 
+I determined the ideal location for a food access program based on the total number of senior residents who had low access to grocery stores in each county. I chose to focus on senior residents as most Medicare members are 65 and older, and I chose to focus on low access to grocery stores because food access largely has to do with proximity to places to purchase nutritious food. I considered focusing on the percentage of senior residents with low access to grocery stores, but opted to focus on the total number to prioritize a large program reach, as choosing based on percentage shifted my recommendations toward much smaller communities where the program would be less impactful. 
 
-Next, I calculated an estimate of how many people would be successfully engaged by the program by using three figures: the total number of senior residents with low access to grocery stores in the counties I selected; the percent of the counties' eligible population who participated in SNAP (Supplemental Nutrition Assistance Program), a food assistance program that would likely be similar to this analysis's program; and the rate of increased successful member referrals to a food security organization that N1 achieved with a previous client. To be conservative, I took about 10 percentage point off of both of these rates before calculating the final figure. 
+Next, I calculated an estimate of how many people would be successfully engaged by the program by using three figures: the total number of senior residents with low access to grocery stores in the counties I selected; the percent of the counties' eligible population who participated in SNAP (Supplemental Nutrition Assistance Program), a food assistance program that would likely be similar to this analysis's program; and the rate of increased successful member referrals to a food security organization that N1 achieved with a previous client. 
 
-I then determined which subgroup of the population would likely benfit the most from this program by examining the racial and ethnic makeup of the selected counties compared to the national average, noting which races and ethnicities made up a larger share of the population of the counties than of the nation as a whole. 
+I then determined which subgroup of the population would likely benfit the most from this program by examining the racial and ethnic makeup of the selected counties compared to the national average, noting which races and ethnicities made up a larger share of the population of the chosen counties than of the nation as a whole. 
+
+Finally, I projected the potential healthcare cost savings for the healthcare plan by referring to a paper titled 'Association between Household Food Insecurity and Annual Healthcare Costs' by Tarasuk et al. that quantified the total annual healthcare costs for households that were food secure, marginally food insecure, moderately food insecure, and severely food insecure. I made the assumption that all the senior residents in the chosen counties fell into the marginally food insecure group (which produced the most conservative cost-saving estimate), and calculated the healthcare cost savings that would arise if we could move the same percentage of people I esimated we could engage into the food secure group. 
 
 ## Analysis
 In the attached Jupyter notebook, I execute my approach and narrate along the way through Markdown comments. I begin with data collection and cleaning, then answer each question in order in separate sections. 
