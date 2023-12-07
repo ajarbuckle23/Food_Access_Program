@@ -10,7 +10,7 @@ A national Medicare Advantage Plan is considering deploying a program to address
 4) What is the projected impact of this program?
 
 ## Data Sources 
-I had three sources of data to inform my analysis: census tract-level data from the CDC, the USDA's Food Environment Atlas, and a custom-built Census race and ethnicitiy dataset for the counties I ended up selecting for the program to be deployed in. I also used two papers to get figures that informed my projections for program engagement and impact. Below is a descipription of each source: 
+I was given two sources of data to inform my analysis: census tract-level data from the CDC and the USDA's Food Environment Atlas. I then sought out an additional dataset, a custom-built Census race and ethnicitiy dataset for the counties I ended up selecting for the program to be deployed in. I also used two papers to obtain figures that informed my projections for program engagement and impact. Below is a descipription of each source: 
 
 **500 Cities: Census Tract-level Data**
 
@@ -36,9 +36,13 @@ Link: https://data.census.gov/table?t=American%20Indian%20and%20Alaska%20Native:
 
 **Association between household food insecurity and annual health care costs**
 
+This paper quantified the total annual healthcare costs for households that were food secure, marginally food insecure, moderately food insecure, and severely food insecure.
+
 Citation: Tarasuk, V., Cheng, J., de Oliveira, C., Dachner, N., Gundersen, C., & Kurdyak, P. (2015). Association between household food insecurity and annual health care costs. CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 187(14), E429–E436. https://doi.org/10.1503/cmaj.150234
 
 **Demographic Variation in Health Insurance Coverage: United States, 2019**
+
+This paper provided statistics for the different types of health insurance coverage for US adults by various sociodemographic characteristics. 
 
 Link: https://www.cdc.gov/nchs/data/nhsr/nhsr159-508.pdf
 
