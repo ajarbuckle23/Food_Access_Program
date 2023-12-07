@@ -14,7 +14,7 @@ I was given two sources of data to inform my analysis: census tract-level data f
 
 **500 Cities: Census Tract-level Data**
 
-This dataset contains information on census tracts from 500 US cities covering their populations, the prevalences of various health conditions (high cholesterol, arthritis, cancer, etc.), the prevalences of certain health behaviors (sleeping under 7 hours a night, binge drinking, smoking, etc.), and the rates of healthcare utilization (dentist visits, health insurance, Pap tests, etc.)  
+This dataset contains information on census tracts from 500 US cities covering their populations, the prevalences of various health conditions (high cholesterol, arthritis, cancer, etc.), the prevalences of certain health behaviors (sleeping under 7 hours a night, binge drinking, smoking, etc.), and the rates of healthcare utilization (dentist visits, health insurance, Pap tests, etc.).
 
 Link: https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Census-Tract-level-Data-GIS-Friendly-Fo/k86t-wghb
 
@@ -24,13 +24,13 @@ This dataset was split into 4 CSV files
 * _StateAndCountyData.csv_: This dataset contains information on over 3,000 US counties covering food security, grocery store and local produce availability, socioeconomic characteristics, health and physical activity, food taxes, and food assistance program usage rates
 * _SupplementalDataState.csv_: This dataset contains state population figures as well as utilization rates for a number of government food assistance programs from 2012 to 2018
 * _SupplementalDataCounty.csv_: This dataset contains exact population figures from the 2010 US Census, as well as estimates for each year after until 2018
-* _VariableList.csv_: This dataset contains metadata, linking the variable codes found in StateAndCountyData.csv to variable names, categories, and units of measurement  
+* _VariableList.csv_: This dataset contains metadata, linking the variable codes found in StateAndCountyData.csv to variable names, categories, and units of measurement
 
 Link: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/
 
 **Custom Census Race and Ethnicity Data**
 
-This dataset contains information on the racial and ethnic makeup of the counties that I selected for the deployment of the food access program, as well as national averages. I accessed it through the advanced search feature on data.census.gov, which allowed me to customize a table to contain data on each counties' population by race (Black, White, Asian, American Indian and Alaska Native, Native Hawaiin and Other Pacific Islander, Two or More Races) and Hispanic / Latino heritage
+This dataset contains information on the racial and ethnic makeup of the counties that I selected for the deployment of the food access program, as well as national averages. I accessed it through the advanced search feature on data.census.gov, which allowed me to customize a table to contain data on each counties' population by race (Black, White, Asian, American Indian and Alaska Native, Native Hawaiin and Other Pacific Islander, Two or More Races) and Hispanic / Latino heritage.
 
 Link: https://data.census.gov/table?t=American%20Indian%20and%20Alaska%20Native:Asian:Black%20or%20African%20American:Hispanic%20or%20Latino:Native%20Hawaiian%20and%20Other%20Pacific%20Islander:Two%20or%20More%20Races:White&g=050XX00US06037,06065,06073
 
