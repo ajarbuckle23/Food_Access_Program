@@ -10,7 +10,7 @@ A national Medicare Advantage Plan is considering deploying a program to address
 4) What is the projected impact of this program?
 
 ## Data Sources 
-I was given two sources of data to inform my analysis: census tract-level data from the CDC and the USDA's Food Environment Atlas. I then sought out an additional dataset, a custom-built Census race and ethnicitiy dataset for the counties I ended up selecting for the program to be deployed in. I also used two papers to obtain figures that informed my projections for program engagement and impact. Below is a descipription of each source: 
+I was given two sources of data to inform my analysis: census tract-level data from the CDC and the USDA's Food Environment Atlas. I then sought out an additional dataset: a custom-built Census race and ethnicitiy dataset for the counties I ended up selecting for the program to be deployed in. I also used two papers to obtain figures that informed my projections for program engagement and impact. Below is a descipription of each source: 
 
 **500 Cities: Census Tract-level Data**
 
