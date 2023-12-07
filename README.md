@@ -42,7 +42,7 @@ Citation: Tarasuk, V., Cheng, J., de Oliveira, C., Dachner, N., Gundersen, C., &
 
 **Demographic Variation in Health Insurance Coverage: United States, 2019**
 
-This paper provided statistics for the different types of health insurance coverage for US adults by various sociodemographic characteristics. 
+This paper from the National Center for Health Statistics provided statistics for the different types of health insurance coverage for US adults by various sociodemographic characteristics. 
 
 Link: https://www.cdc.gov/nchs/data/nhsr/nhsr159-508.pdf
 
